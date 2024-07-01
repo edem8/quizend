@@ -21,7 +21,7 @@ This is a solution to the [Frontend quiz app challenge on Frontend Mentor](https
 
 ### The challenge
 
-Users should be able to:
+Users should can:
 
 - Select a quiz subject
 - Select a single answer from each question from a choice of four
