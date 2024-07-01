@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React, { useState } from "react";
 import Onboarding from "./screens/onboarding/Onboarding";
 import Quiz from "./screens/quiz/Quiz";
@@ -19,10 +18,8 @@ type Subject = {
   bgColor: string;
   questions: Question[];
 };
-=======
-import React from 'react';
 
->>>>>>> styledComponents
+
 
 function App() {
   const [currentScreen, setCurrentScreen] = useState<
