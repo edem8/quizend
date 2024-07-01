@@ -4,7 +4,7 @@ export const GlobalStyle = createGlobalStyle`
 
 
 body{
-  font-family: "Rubik", sans-serif;
+  font-family: "Rubik";
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
