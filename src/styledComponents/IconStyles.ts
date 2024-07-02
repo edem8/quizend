@@ -19,7 +19,7 @@ export const Icon = styled.img<{
   align-self: center;
   justify-self: center;
 
-  @media (min-width: 376px) {
+  @media (min-width: 426px) {
     width: 30px;
     height: 30px;
   }
@@ -32,7 +32,7 @@ export const SunIcon = styled(Icon)`
   display: inline;
   align-self: center;
 
-  @media (min-width: 376px) {
+  @media (min-width: 426px) {
     width: 24px;
     height: 24px;
   }
@@ -43,7 +43,7 @@ export const MoonIcon = styled(SunIcon)`
   align-self: center;
   grid-column: 3;
 
-  @media (min-width: 376px) {
+  @media (min-width: 426px) {
     width: 24px;
     height: 24px;
   }
@@ -54,13 +54,13 @@ export const TogglerIcon = styled(Icon)`
   grid-column: 2;
   cursor: pointer;
 
-  @media (min-width: 376px) {
+  @media (min-width: 426px) {
     width: 48px;
     height: 28px;
   }
 
   @media (min-width: 769px) {
-    &:focus-visible{
+    &:focus-visible {
       outline: none;
       width: 64px;
       height: 42px;
@@ -75,7 +75,7 @@ export const SubjectIcon = styled(Icon)`
   border-radius: 4px;
   padding: 4px 4px;
 
-  @media (min-width: 376px) {
+  @media (min-width: 426px) {
     width: 40px;
     height: 40px;
   }
@@ -86,7 +86,7 @@ export const InvalidSubmissionIcon = styled(Icon)`
   grid-column: 1;
   justify-self: flex-end;
 
-  @media (min-width: 376px) {
+  @media (min-width: 426px) {
     width: 30px;
     height: 30px;
   }

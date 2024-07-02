@@ -3,10 +3,10 @@ import styled from "styled-components";
 //Entire app wrapper
 export const AppWrapper = styled.div`
   width: 375px;
-  height: 812px;
+  height: auto;
   display: grid;
   grid-template-rows: 72px 740px;
-
+  overflow: hidden;
   background-color: ${(props) => props.theme.background.secondary};
   background-image: ${(props) =>
     props.theme.src.bgPattern ? `url(${props.theme.src.bgPattern})` : "none"};
@@ -14,6 +14,10 @@ export const AppWrapper = styled.div`
   background-size: 100% 100%;
 
   @media (min-width: 376px) {
+    width: 425px;
+  }
+
+  @media (min-width: 426px) {
     width: 768px;
     height: 1024px;
     background-repeat: no-repeat;
@@ -36,6 +40,10 @@ export const AppWrapper = styled.div`
         : "none"};
     background-size: cover;
   }
+
+  @media (min-width: 1441px) {
+    width: 100%;
+  }
 `;
 
 // App header wrapper
@@ -48,6 +56,10 @@ export const HeaderWrapper = styled.div`
   gap: auto;
 
   @media (min-width: 376px) {
+    padding: 22px 50px;
+  }
+
+  @media (min-width: 426px) {
     padding: 32px 60px;
   }
 
@@ -65,7 +77,7 @@ export const ToggleWrapper = styled.div`
   align-self: center;
   justify-self: center;
 
-  @media (min-width: 376px) {
+  @media (min-width: 426px) {
     gap: 16px;
     grid-template-columns: 24px 48px 24px;
   }
@@ -87,12 +99,12 @@ export const TopicWrapper = styled.div<{ isVisible: boolean }>`
     line-height: 100%;
     color: ${(props) => props.theme.text.primary};
 
-    @media (min-width: 376px) {
+    @media (min-width: 426px) {
       font-size: 28px;
     }
   }
 
-  @media (min-width: 376px) {
+  @media (min-width: 426px) {
     gap: 24px;
   }
 `;
@@ -106,7 +118,7 @@ export const InvalidSubmissionWrapper = styled(TopicWrapper)`
   grid-template-columns: 32px 201px;
   column-gap: 8px;
 
-  @media (min-width: 376px) {
+  @media (min-width: 426px) {
     height: 40px;
     width: 316px;
   }
@@ -119,7 +131,7 @@ export const InvalidSubmissionWrapper = styled(TopicWrapper)`
     line-height: 100%;
     color: ${(props) => props.theme.text.tertiary};
 
-    @media (min-width: 376px) {
+    @media (min-width: 426px) {
       width: 268px;
       font-size: 24px;
       line-height: 150%;
@@ -137,7 +149,7 @@ export const ScoreCardWrapper = styled.div`
   row-gap: 16px;
   border-radius: 12px;
 
-  @media (min-width: 376px) {
+  @media (min-width: 426px) {
     padding: 48px 48px;
     grid-template-rows: 56px 196px;
     row-gap: 40px;
@@ -154,7 +166,7 @@ export const ScoreCardWrapper = styled.div`
     font-weight: 550;
     color: ${(props) => props.theme.text.primary};
 
-    @media (min-width: 376px) {
+    @media (min-width: 426px) {
       grid-template-rows: 144px 36px;
       font-size: 144px;
     }
@@ -166,7 +178,7 @@ export const ScoreCardWrapper = styled.div`
       align-self: center;
       justify-self: center;
 
-      @media (min-width: 376px) {
+      @media (min-width: 426px) {
         font-size: 24px;
       }
     }

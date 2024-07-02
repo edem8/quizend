@@ -8,7 +8,7 @@ export const OnboardingContentWrapper = styled.div`
   row-gap: 40px;
   justify-self: center;
 
-  @media (min-width: 376px) {
+  @media (min-width: 426px) {
     row-gap: 64px;
     grid-template-rows: 182px 392px;
   }
@@ -30,7 +30,7 @@ export const OnboardingContentWrapper = styled.div`
     grid-template-rows: auto auto;
     row-gap: 16px;
 
-    @media (min-width: 376px) {
+    @media (min-width: 426px) {
       grid-template-rows: 136px 30px;
     }
 
@@ -48,7 +48,7 @@ export const OnboardingContentWrapper = styled.div`
       font-size: 40px;
       line-height: 100%;
 
-      @media (min-width: 376px) {
+      @media (min-width: 426px) {
         font-size: 64px;
         grid-template-rows: auto auto;
       }
@@ -77,7 +77,7 @@ export const OnboardingContentWrapper = styled.div`
       color: ${(props) => props.theme.text.secondary};
       margin: 0;
 
-      @media (min-width: 376px) {
+      @media (min-width: 426px) {
         font-size: 20px;
       }
     }
@@ -90,13 +90,13 @@ export const OnboardingContentWrapper = styled.div`
     grid-template-rows: 64px 64px 64px 64px;
     width: 327px;
 
-    @media (min-width: 376px) {
+    @media (min-width: 426px) {
       grid-template-rows: 80px 80px 80px 80px;
       row-gap: 24px;
       width: 640px;
     }
 
-    @media (min-width: 769px) {
+     @media (min-width: 769px) {
       height: 456px;
       grid-column: 2;
       grid-row: 1;

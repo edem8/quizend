@@ -8,7 +8,7 @@ export const ScoreContentWrapper = styled.div`
   row-gap: 40px;
   justify-self: center;
 
-  @media (min-width: 376px) {
+  @media (min-width: 426px) {
     row-gap: 64px;
     grid-template-rows: 136px 512px;
   }
@@ -29,7 +29,7 @@ export const ScoreContentWrapper = styled.div`
     display: grid;
     grid-template-rows: auto;
 
-    @media (min-width: 376px) {
+    @media (min-width: 426px) {
       width: 450px;
       height: 136px;
     }
@@ -43,7 +43,7 @@ export const ScoreContentWrapper = styled.div`
       line-height: 100%;
       row-gap: 16px;
 
-      @media (min-width: 376px) {
+      @media (min-width: 426px) {
         grid-template-rows: 64px 64px;
         font-size: 64px;
         width: 100%;
@@ -71,7 +71,7 @@ export const ScoreContentWrapper = styled.div`
     grid-template-rows: 242px 56px;
     width: 327px;
 
-    @media (min-width: 376px) {
+    @media (min-width: 426px) {
       grid-template-rows: 388px 92px;
       row-gap: 32px;
       width: 640px;

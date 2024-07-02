@@ -9,7 +9,7 @@ export const QuizContentWrapper = styled.div`
   row-gap: 38px;
   justify-self: center;
 
-  @media (min-width: 376px) {
+  @media (min-width: 426px) {
     row-gap: 64px;
     grid-template-rows: 242px 516px;
   }
@@ -31,7 +31,7 @@ export const QuizContentWrapper = styled.div`
     grid-template-rows: auto auto;
     row-gap: 24px;
 
-    @media (min-width: 376px) {
+    @media (min-width: 426px) {
       grid-template-rows: 186px 16px;
       row-gap: 40px;
       width: 640px;
@@ -53,7 +53,7 @@ export const QuizContentWrapper = styled.div`
       row-gap: 12px;
       margin: 0;
 
-      @media (min-width: 376px) {
+      @media (min-width: 426px) {
         row-gap: 27px;
         grid-template-rows: 30px 129px;
       }
@@ -74,7 +74,7 @@ export const QuizContentWrapper = styled.div`
         align-content: center;
         margin: 0;
 
-        @media (min-width: 376px) {
+        @media (min-width: 426px) {
           font-size: 20px;
         }
       }
@@ -91,7 +91,7 @@ export const QuizContentWrapper = styled.div`
         justify-content: center;
         padding: 0px 0px 0px 0px;
 
-        @media (min-width: 376px) {
+        @media (min-width: 426px) {
           font-size: 36px;
         }
 
@@ -108,7 +108,7 @@ export const QuizContentWrapper = styled.div`
       max-width: 327px;
       background-color: ${(props) => props.theme.background.primary};
 
-      @media (min-width: 376px) {
+      @media (min-width: 426px) {
         max-width: 640px;
         padding: 4px 4px;
       }
@@ -122,7 +122,7 @@ export const QuizContentWrapper = styled.div`
     grid-template-rows: 64px 64px 64px 64px 54px 32px;
     width: 327px;
 
-    @media (min-width: 376px) {
+    @media (min-width: 426px) {
       width: 640px;
       height: 588px;
       grid-template-rows: 80px 80px 80px 80px 92px 40px;

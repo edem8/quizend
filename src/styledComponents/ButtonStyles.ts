@@ -18,7 +18,7 @@ export const DefaultButton = styled.button`
     background-color: #d394fa;
   }
 
-  @media (min-width: 376px) {
+  @media (min-width: 426px) {
     width: 640px;
     height: 92px;
     border-radius: 24px;
@@ -56,7 +56,7 @@ export const SubjectButton = styled.button`
   display: flex;
   gap: 16px;
 
-  @media (min-width: 376px) {
+  @media (min-width: 426px) {
     width: 640px;
     height: 80px;
     border-radius: 24px;
@@ -101,7 +101,7 @@ export const OptionButton = styled.button`
   gap: 16px;
   color: #626c7f;
 
-  @media (min-width: 376px) {
+  @media (min-width: 426px) {
     font-size: 28px;
     width: 640px;
     height: 80px;
@@ -121,7 +121,7 @@ export const OptionButton = styled.button`
     text-align: center;
     align-content: center;
 
-    @media (min-width: 376px) {
+    @media (min-width: 426px) {
       min-width: 56px;
       min-height: 56px;
       border-radius: 12px;
