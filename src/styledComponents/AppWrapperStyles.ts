@@ -6,7 +6,6 @@ export const AppWrapper = styled.div`
   height: auto;
   display: grid;
   grid-template-rows: 72px 740px;
-  overflow: hidden;
   background-color: ${(props) => props.theme.background.secondary};
   background-image: ${(props) =>
     props.theme.src.bgPattern ? `url(${props.theme.src.bgPattern})` : "none"};
@@ -15,6 +14,7 @@ export const AppWrapper = styled.div`
 
   @media (min-width: 376px) {
     width: 425px;
+    overflow-x: hidden;
   }
 
   @media (min-width: 426px) {
