@@ -67,11 +67,6 @@ Results
 - [Typescript](https://typescriptlang.org/) - Statically typed JS
 - [Styled Components](https://styled-components.com/) - For styles
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> docs
 ### What I learned
 
 Contrary to my thoughts, i found out that react setState() is an asynchronous function and hence using it in synchronous lines which need the updated state values almost immediately could be tricky...
@@ -132,8 +127,7 @@ Css :focus vs :focus-visible, if youre struggling with interactive elements focu
 
 - [Codevolution](https://youtube.com/playlist?list=PLC3y8-rFHvwgu-G08-7ovbN9EyhF_cltM&si=bMkfxYbtDfXxc3SV) - A short playlist on styled components...this got me started with styled components in less than an hour...I totally prefer styled componenets now..Yeah please join me!!!!!!
 
-<<<<<<< HEAD
-=======
+
 ## Contribute
 
 - Create an issue
@@ -144,8 +138,6 @@ yarn install
 ```
 - Create a pull request
 
-
->>>>>>> docs
 ## Author
 
 - Github - [Kwaku Kwadwo Edem Bless](https://github.com/edem8)
