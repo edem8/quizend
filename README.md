@@ -13,6 +13,7 @@ This is a solution to the [Frontend quiz app challenge on Frontend Mentor](https
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
+- [Contribute](#contribute)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -67,6 +68,7 @@ Results
 - [React](https://reactjs.org/) - JS library
 - [Typescript](https://typescriptlang.org/) - Statically typed JS
 - [Styled Components](https://styled-components.com/) - For styles
+
 
 
 ### What I learned
@@ -132,6 +134,15 @@ Css :focus vs :focus-visible, if youre struggling with interactive elements focu
 - [Net Ninja](https://youtube.com/playlist?list=PL4cUxeGkcC9itC4TxYMzFCfveyutyPOCY&si=iAXwNT0rzIlpICuz) - I used a lot of griding in this project... Griding makes it very easy to define postions for elements on the DOM..This course by Net Ninja couldnt have explained it any better
 
 - [Codevolution](https://youtube.com/playlist?list=PLC3y8-rFHvwgu-G08-7ovbN9EyhF_cltM&si=bMkfxYbtDfXxc3SV) - A short playlist on styled components...this got me started with styled components in less than an hour...I totally prefer styled componenets now..Yeah please join me!!!!!!
+
+## Contribute
+
+- Create an issue
+- Clone the repo and create a branch
+- Run ```bash
+  yarn install
+  ```
+- Create a pull request
 
 
 ## Author
