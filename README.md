@@ -139,9 +139,10 @@ Css :focus vs :focus-visible, if youre struggling with interactive elements focu
 
 - Create an issue
 - Clone the repo and create a branch
-- Run ```bash
-  yarn install
-  ```
+- Run 
+```sh
+yarn install
+```
 - Create a pull request
 
 
