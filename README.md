@@ -142,7 +142,7 @@ yarn install
 
 - Github - [Kwaku Kwadwo Edem Bless](https://github.com/edem8)
 - Frontend Mentor - [@edem8](https://www.frontendmentor.io/profile/edem8)
-- Twitter - [@QhojoE](https://www.twitter.com/QhojoE)
+- Twitter - [@QhojoE](https://www.twitter.com/eDlaWss)
 
 ## Acknowledgments
 
